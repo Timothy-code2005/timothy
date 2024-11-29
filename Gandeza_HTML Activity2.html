@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        .cv-container {
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 2fr; /* Sidebar on the left, main content on the right */
+            gap: 10px;
+            padding: 20px;
+            background-color: lightgray;
+        }
+
+        .header {
+            grid-column: span 2; /* Header spans across both columns */
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .sidebar {
+            background-color: #e6f7ff;
+            padding: 15px;
+        }
+
+        .main-content {
+            background-color: #ffffff;
+            padding: 15px;
+            border-style: outset;
+            border-color: black;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            border-style: outset;
+            border-color: darkblue;
+            border-left-style: groove;
+            border-top-style: dashed;
+            border-left-style: groove;
+            border-bottom-style: dashed;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 20%; /* Ensure the image fits within the container */
+            height: auto;
+            border-radius: 10px; /* Rounded corners */
+            margin-bottom: 15px; /* Space below the image */
+            align-items: center;
+        
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+<body>
+    <div class="cv-container">
+        
+        <div class="header"><i class="fas fa-user"></i>  John Timothy M. Gandeza</div>
+        
+        <div class="sidebar">
+            <img src="2x2pic.jpg" alt="Profile Picture">
+            <div class="section">
+                <div class="section-title">Contact Information</div>
+                <p><i class="fas fa-envelope"></i> Email: johntimothy.gandeza@neu.edu.ph</p>
+                <p><i class="fas fa-phone"></i>  (+63) 908-669-8804</p>
+                <p><i class="fas fa-location-dot"></i> Address: 94 Blk 10 Pook Palaris UP Campus Diliman Quezon City</p>
+            </div>
+            <div class="section">
+                <div class="section-title">Skills</div>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Project Management</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="section">
+                <div class="section-title">Personal Data</div>
+                <p>Nationality: Filipino</p>
+                <p>Status: Single</p>
+                <p>Date of Birth: August 08,2005</p>
+                <p>Age: 19</p>
+                <p>Religion: Roman Catholic</p>
+            </div>
+            <div class="section">
+                <div class="section-title"><i class="fas fa-education"></i> Educational  Background</div>
+                <h3>2024-Present</h3>
+                <ul>
+                    <li>New Era University</li>
+                </ul>
+
+                <h3>2022-2024</h3>
+                <ul>
+                    <li>New Era University-Integrated School</li>
+                </ul>
+              <h3>2012-2022</h3>
+              <ul>
+                <li>St. Vincent School of Quezon City</li>
+              </ul>
+                
+            </div>
+            <div class="section">
+                <div class="section-title">Awards and Achievements</div>
+                <ul>
+                    <li>Grade 8-Top 9</li>
+                    
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-title">Work Experience</div>
+                <p>No Work Experience</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
