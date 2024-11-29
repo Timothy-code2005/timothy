@@ -1,0 +1,163 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            input[type=text]{
+
+                    border: 1px;
+                    border-style: solid;
+                    border-radius: 5px;
+                    border-color: brown;
+                    padding: 5px;       
+                    margin: 8px ;
+                    box-sizing: border-box;
+                    
+            }
+            select{
+                border: 2px;
+                border-color: aquamarine;
+                border-style: groove;
+                margin: 8px;
+                padding: 5px;
+                width: 600;
+                box-sizing: border-box  ;
+            
+            }
+                
+            
+            
+        h2{
+                border:2px;
+                border-style: groove;
+                border-color: blue;
+                box-sizing: border-box;
+                width: 50%  ;
+                height: 50%;
+            }
+            body{
+                border:2px;
+                border-style: groove;
+                border-color:black;
+                margin:45px 45px;
+                background-image: linear-gradient( violet   ,yellow);
+                
+            }
+            textarea{
+                border: 2px;
+                border-style: groove;
+                border-color: brown;
+                width: 75;
+                height: 50;
+                padding: 25 px;
+            }
+
+            select:hover{background-color: orange;}
+
+        </style>
+    </head>
+    <body>
+        <center>
+
+            <h1> My Simple HTML Form</h1><hr>   
+            <form action="">
+
+                <h2>Personal Information </h2>
+            
+            <label> FirstName:</label>
+            <input type="text" name="fname" id="fname" placeholder="Firstname">
+    
+            <label> LastName:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="LastName">
+    
+            <label>Address:</label>
+            <input type="text" name="address" id="address" placeholder="Address"><br>
+    
+            <label>Age:</label>
+            <input type="text" name="age" id="age" placeholder="Age">
+
+            <label>School:</label>
+            <input type="text" name="school" id="school" placeholder="School">
+
+            <label>Program taken: </label>
+            <input type="text" name="program" id="program0" placeholder="Program">
+
+            <label>Birthday:</label>
+            <input type="text" name="birthday" id="birthday" placeholder="Birthday"><br><hr> 
+                
+                
+                
+            <h2> Favorites</h2><br>
+
+                <label>Favorite Color</label>
+                <select name="Favorite Color">
+                    <option value="">Red</option>
+                    <option value="">Orange</option>
+                    <option value="">Green</option>
+                    <option value="">Yellow</option>
+                    <option value="">Blue</option></select>
+        
+                    <label>Favorite FastFood Restaurant</label>
+                    <select name="Favorite FastFood Restaurant">
+                        <option value="">KFC</option>
+                        <option value="">Jollibee</option>
+                        <option value="">Mcdonalds</option>
+                        <option value="">Burger King</option>
+                        <option value="">Popeyes    </option></select>
+                        
+            
+            <label>FavoriteFood</label>
+                <select name="Favorite Food">
+                <option value="">Sinigang na Baboy</option>
+                <option value="">Adobo</option>
+                <option value="">Tinolan Manok</option>
+                <option value="">Kare-kare</option>
+                <option value="">Others</option></select>
+
+                <label> Favorite Sport</label>   
+                <select name="Favorite Sport">
+                    <option value="">Basketball</option>
+                    <option value="">Badminton</option>
+                    <option value="">Volleyball</option>
+                    <option value="">Billiards</option>
+                    <option value="">Football</option>
+                    <option value="">Track and Field</option>  </select>
+
+                    <label> Favorite Cartoon Character</label>   
+                    <select name="Favorite Cartoon Character">
+                        <option value=""> Bugs Bunny</option>
+                        <option value="">   Charlie Brown</option>
+                        <option value="">Garflied</option>
+                        <option value="">Mickey Mouse</option>
+                        <option value="">SpongeBob</option>
+                        <option value="">Hello Kitty</option>  </select>
+        
+
+                    <label>Favorite Movie Genre</label>
+                    <select name="Favorite Movie Genre">
+                        <option value="">Horror</option>
+                        <option value="">RomCom</option>
+                        <option value="">Sci-Fi</option>
+                        <option value="">Fantasy</option>
+                        <option value="">Action</option>
+                        <option value="">Drama</option> </select><br>
+
+                        <label>Favorite Love Language</label>
+                        <select name="Favorite Love Language">
+                        <option value="">Words of Affirmation</option>
+                        <option value="">Recieving Gifts</option>
+                        <option value="">Physical Touch</option>
+                        <option value="">Quality Time</option>
+                        <option value="">Acts of Service</option></select>  <br>
+
+                        <label>Favorite Color</label><br>
+                        <input type="color" id="fav_color" name="fav-color" value="black">
+
+            </form>
+            </center>
+        
+        
+    </body>
+    </html>
